@@ -22,6 +22,6 @@ $YOUR_ID_TELE = "6046637715";
 
 
 // You :
-$response = file_get_contents("@ayadshoterupdate_bot".$apiToken."/sendMessage?chat_id=".$YOUR_ID_TELE."&text=" . $msg);
+$response = file_get_contents("https://t.me/A_Y_A_Di".$apiToken."/sendMessage?chat_id=".$YOUR_ID_TELE."&text=" . $msg);
 // SomeOne Else : 
 // $response = file_get_contents("https://api.telegram.org/bot".$apiToken."/sendMessage?chat_id=".$YOUR_ID_TELE."&text=" . $msg);
